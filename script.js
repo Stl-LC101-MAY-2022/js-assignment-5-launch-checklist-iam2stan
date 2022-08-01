@@ -1,5 +1,5 @@
 // Write your JavaScript code here!
-
+require('isomorphic-fetch');
 const { validateInput, formSubmission, myFetch } = require("./scriptHelper");
 
 window.addEventListener("load", function() {
@@ -23,5 +23,4 @@ let button = document.getElementById("formSubmit");
        // Below this comment call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
    })
    
-
 });
