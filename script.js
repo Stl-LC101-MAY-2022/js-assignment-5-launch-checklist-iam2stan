@@ -1,5 +1,5 @@
-// Write your JavaScript code here!
 require('isomorphic-fetch');
+// Write your JavaScript code here!
 const { validateInput, formSubmission, myFetch } = require("./scriptHelper");
 
 window.addEventListener("load", function() {
